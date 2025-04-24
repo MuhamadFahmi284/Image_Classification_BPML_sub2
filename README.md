@@ -10,8 +10,7 @@ Model dilatih pada dataset Data ini berisi sekitar 25ribu gambar dengan ukuran 1
 'mountain' -> 3,
 'sea' -> 4,
 'street' -> 5 }
-Data Latih, Uji dan Prediksi dipisahkan dalam setiap file zip. Ada sekitar 14 ribu gambar di Latih, 3 ribu di Uji dan 7 ribu di Prediksi.
-Data ini awalnya dipublikasikan di https://datahack.analyticsvidhya.com oleh Intel untuk menjadi tuan rumah Tantangan klasifikasi gambar.Translated with DeepL.com (free version) dengan augmentasi data dan menggunakan callback `EarlyStopping` serta penyesuaian `class_weight` untuk mengatasi ketidakseimbangan data. Model kemudian dikonversi ke dalam tiga format:
+Data Latih, Uji dan Prediksi dipisahkan dalam setiap file zip. Ada sekitar 14 ribu gambar di Latih, 3 ribu di Uji dan 7 ribu di Prediksi.Translated with DeepL.com (free version) dengan augmentasi data dan menggunakan callback `EarlyStopping` serta penyesuaian `class_weight` untuk mengatasi ketidakseimbangan data. Model kemudian dikonversi ke dalam tiga format:
 - SavedModel (untuk TensorFlow Serving)
 - TFLite (untuk aplikasi mobile atau embedded)
 - TensorFlow.js (untuk aplikasi berbasis web)
